@@ -1,0 +1,44 @@
+{
+	"schemaVersion": 1,
+	"id": "gymmod",
+	"version": "1.0.0",
+	"name": "Gym Mod",
+	"description": "Gym mod is a fun content for your minecraft experience with Gym theme.",
+	"authors": [
+		"floatingheaven"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/gymmod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"github.floatingheaven33.GymMod"
+		],
+		"client": [
+			"github.floatingheaven33.GymModClient"
+		],
+		"fabric-datagen": [
+			"github.floatingheaven33.GymModDataGenerator"
+		]
+	},
+	"mixins": [
+		"gymmod.mixins.json",
+		{
+			"config": "gymmod.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.16.7",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

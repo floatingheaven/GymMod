@@ -1,0 +1,22 @@
+/give Player292 gymmod:protein_bar
+/data modify
+/data get block 49 -61 115
+/data reload
+/reload
+/give Player292 gymmod:protein_bar
+/reload
+/data reload
+/give Player292 gymmod:protein_bar
+/give Player399 gymmod:protein_bar
+/give Player599
+/give Player599 gymmod:protein_bar
+/give Player599 gymmod:steroids
+/give Player616
+/give Player616 gymmod:steroids
+/gamemode
+/gamemode survival
+/give Player646 minecraft:milk_bucket
+/give Player41 gymmod:steroids
+/gamemode 1
+/gamemode creative
+/give Player452 gymmod:steroids
