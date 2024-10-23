@@ -1,0 +1,8 @@
+{
+  "parent": "gymmod:block/checkmate",
+  "textures": {
+    "layer0":"gymmod:block/checkmate"
+
+  }
+
+}
